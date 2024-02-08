@@ -1,0 +1,13 @@
+- Billions of connected computing *devices*
+	- *hosts* = end systems running apps at the internets "edge"
+- *Packet switches* forwards **packets
+	- routers, switches
+- *Communication Links
+	- fiber, copper, radio, satellite
+- *Network*s
+	- A collection of devices, routers, links; managed by an organization
+	- *The Internet* is an example of interconnected networks
+- *Protocols*
+	- Control the sending and receiving of messages
+	- Examples: HTTP, TCP, IP, WiFi, 4G, Ethernet
+

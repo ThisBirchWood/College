@@ -1,0 +1,1 @@
+- O(n log n) is the absolute best worst case for comparison sorting

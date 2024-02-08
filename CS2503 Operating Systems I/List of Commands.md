@@ -1,0 +1,13 @@
+- find - to find files by names
+- grep - to find strings within files
+- sed - to edit strings within files
+- awk - split and process fields in files
+- ls - list files in current directory
+- wc - (word count), used to count number of lines, word, byte and character count
+- exec - replaces the current shell with a new command
+- xargs - 
+- cd - change direction
+- pwd - present/print working directory
+- mkdir - makes a new directory
+- rmdir - removes an *empty* directory
+- rm - removes a file

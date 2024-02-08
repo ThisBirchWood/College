@@ -1,0 +1,49 @@
+1. wget -O "jab" "https://en.wikipedia.org/wiki/Jabberwocky"
+
+2. sed -n '/Beware the Jabberwock, my son!/,/The frumious Bandersnatch!"/ {s/<br \/>//g; p}' "jab" | tee "jabber"
+[[OUTPUT]]
+"Beware the Jabberwock, my son!
+The jaws that bite, the claws that catch!
+Beware the Jubjub bird, and shun
+The frumious Bandersnatch!"
+[[END]]
+
+3.
+
+echo "
+s/Jabberwock/Fortnite Player/
+s/Jubjub/Cat/
+s/Bandersnatch/Rubber Bandits/" > seditious
+
+sed -f seditious jabber | tee "jabberwock"
+
+[[OUTPUT]]
+"Beware the Fortnite Player, my son!
+The jaws that bite, the claws that catch!
+Beware the Cat bird, and shun
+The frumious Rubber Bandits!"
+[[END]]
+
+4. 
+
+echo "Jabberwock - backbiter
+Jubjub - gossip
+Bandersnatch – fanatic" > remedyall
+
+echo "s/^\(.*\) [-–] \(.*\)$/\1\/\2\//
+s/^/s\//" > editorial
+
+sed -f editorial remedyall | tee insidious
+[[OUTPUT]]
+s/Jabberwock/backbiter/
+s/Jubjub/gossip/
+s/Bandersnatch/fanatic/
+[[END]]
+
+sed -f insidious jabber | tee jabberwocky
+[[OUTPUT]]
+"Beware the backbiter, my son!
+The jaws that bite, the claws that catch!
+Beware the gossip bird, and shun
+The frumious fanatic!"
+[[END]]

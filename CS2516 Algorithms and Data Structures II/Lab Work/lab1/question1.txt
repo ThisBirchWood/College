@@ -1,0 +1,25 @@
+a) 
+Properties: A binary tree where every node has lower keys than their children
+            It is always a full tree (except for maybe the last row)
+            When adding a new node, you add it to the last row if there's space and you 
+            go left to right
+Adding an element: You create a new node to the right of the last node, then you bubble up
+            by checking if the node is smaller than it's parent node, if it is, swap with the 
+            parent and continue, if it isn't, it's in the right place
+Removing the min element: Swap the top element with the last added node, then remove the last added
+            node. Bubble the top element down (always with the smaller child) until it's in the
+            right position
+
+
+b)
+A Binary Heap can be represented in an array. The first element is the "top" element and the
+following two elements are it's children (left then right). The next 4 elements are the children
+those, and so on. 
+You can calculate the parent of any element given it's index N with: (N-1)//2 (round down)
+You can calculate the child of an element with index N with: 2N + 1 (for left child)
+                                                             2N + 2 (for right child)
+
+c) Selection Sort: N^2 comparisons + N swaps
+   Insertion Sort: N^2 comparisons + N^2 swaps
+   Heap Sort: N log N
+

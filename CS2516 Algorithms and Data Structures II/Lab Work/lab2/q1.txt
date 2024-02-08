@@ -1,0 +1,2 @@
+Mergesort: O(n log n)
+Quicksort: O(n^2)

@@ -1,0 +1,2 @@
+- If need a *specification* of a certain data type (stack, queue, etc), that everyone agrees on, and we can guarantee that our object behaves according to the specification.
+- Known as an **Abstract Data Type**

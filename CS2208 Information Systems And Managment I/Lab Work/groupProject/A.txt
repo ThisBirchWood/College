@@ -1,0 +1,8 @@
+I started by browsing various existing job listing sites and seeing what information was stored about 
+users, jobs and companies. (jobs.ie, monster.ie). I went through LinkedIn to see the best attributes that
+could be added to the users and jobs tables. LinkedIn was also useful to find attributes to add to companies,
+such as where they're based, specialties and employee count. I also viewed this video: 
+(https://www.youtube.com/watch?v=5KmYd_Mxc4s&ab_channel=LinkedInHelp), which gave insight into how a company is
+added to the LinkedIn database. I could see each of the fields that needed to be filled out, which gave me ideas for company
+attributes. I also browsed articles (https://vertabelo.com/blog/designing-a-database-for-an-online-job-portal/) to find
+ideas on what extra entities could be added to the database, such as tables for job posts and companies.

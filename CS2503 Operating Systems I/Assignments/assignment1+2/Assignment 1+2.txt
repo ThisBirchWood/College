@@ -1,0 +1,148 @@
+﻿CS2503 Lab Assignment 1				 		Student ID #  122415616
+
+Although Canvas should identify, just enter your id at the top right above instead of 1...9.
+
+Run on csgate for consistency, and copy relevant sequences into this template for submission.
+
+For everyone’s convenience, please use the plaintext template provided on Canvas assignment files.
+Easiest simply to download from Canvas, and open; it will open with a Text Editor on Linux in lab,
+or use a simple text file & editor on any other system you are using.Text or rich text is portable.
+Submit as a … plain/rich text file, in that order of preference.  No need for .odt or .doc(x) 
+BUT DEFINITELY NOT Mac pages or as a link to any cloud hosted service.
+
+And of course, use xargs where convenient, simple to use anyway.
+
+
+For the directory share 	/users/coursework/cs2503/testdata
+
+    1. Find all files with extension .text
+       
+
+SOLUTION
+find . -name "*.text"
+OUTPUT
+---------------------
+./subdir/dir.text
+./subdir/sed.text
+./subdir/tar.text
+./subdir/tr.text
+./cpio.text
+./find.text
+./grep.text
+---------------------
+
+ANOTHER SOLUTION?
+ls -R | grep "\.text"
+OUTPUT
+---------------------
+cpio.text
+find.text
+grep.text
+dir.text
+sed.text
+tar.text
+tr.text
+---------------------
+     								
+    2. compute their overall sizes  (of filenames ending in (or with extensions)  .text) as
+        1. bytes
+        2. blocks
+        3. K (as in 2^10)
+
+
+SOLUTIONS
+1. ls -l -S -R | grep "\.text" | awk '{print $9, $5}'
+OUTPUT
+---------------------
+find.text 56774
+grep.text 33518
+cpio.text 2255
+tar.text 10925
+sed.text 9644
+dir.text 7717
+tr.text 3602
+---------------------
+
+2. ls -R -s | grep "\.text"
+OUTPUT
+---------------------
+ 4 cpio.text
+60 find.text
+40 grep.text
+ 8 dir.text
+12 sed.text
+12 tar.text
+ 4 tr.text
+---------------------
+
+3. ls -lSR | grep "\.text" | awk '{print $9, $5/1024 "K"}'
+OUTPUT
+---------------------
+find.text 55.4434K
+grep.text 32.7324K
+cpio.text 2.20215K
+tar.text 10.6689K
+sed.text 9.41797K
+dir.text 7.53613K
+tr.text 3.51758K
+---------------------
+
+
+ANOTHER SOLUTION TO ANY ONE OF ABOVE?
+3. du -h -a | grep "\.text"
+OUTPUT
+---------------------
+8.0K	./subdir/dir.text
+12K	./subdir/sed.text
+12K	./subdir/tar.text
+4.0K	./subdir/tr.text
+4.0K	./cpio.text
+60K	./find.text
+40K	./grep.text
+---------------------
+     
+    3. With respect to the contents of files containing the word ‘directory’ and the following variants: directory’s, directories, directories’  but excluding prefix variants such as sub- or super- 
+        1. list all files which contain any of the requested directory word variants listed above;
+        2. count the number of files containing them
+        3. count the total number of lines containing them
+        4. count the actual number of occurrences, i.e. include multiple occurrences in a line.
+	
+
+SOLUTIONS
+1. grep -rEl "\bdirectories|\bdirectory's|\bdirectories'|\bdirectory"
+OUTPUT
+---------------------
+subdir/dir.text
+subdir/man.txt
+subdir/mv.txt
+subdir/nano.txt
+subdir/tar.text
+chown.txt
+cp.txt
+cpio.text
+ed.txt
+find.text
+grep.text
+ls.txt
+---------------------
+
+2. grep -rEl "\bdirectories|\bdirectory's|\bdirectories'|\bdirectory" | wc -l
+OUTPUT
+---------------------
+12
+---------------------
+
+3. grep -rE "\bdirectories|\bdirectory's|\bdirectories'|\bdirectory" | wc -l
+OUTPUT
+---------------------
+96
+---------------------
+
+4. grep -rEo "\bdirectories|\bdirectory's|\bdirectories'|\bdirectory" | wc -l
+OUTPUT
+---------------------
+102
+---------------------
+
+
+

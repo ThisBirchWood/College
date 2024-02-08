@@ -1,0 +1,12 @@
+- . - Any one character
+- * - Match any number of previous (including 0)
+- + - Match any number of previous
+- $ - End of line 
+- ^ - Start of line
+- \\S - any non-whitespace char
+- \\s - any whitespace char
+- ? - previous char optional
+- [a-z] - any lowercase letter
+- [A-Z] - any uppercase letter
+- [A-Za-z] - any letter
+- [0-9] - any number
