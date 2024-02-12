@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d0b9e4c43844b1af",
+        "id": "32b1e1760b02349a",
         "type": "tabs",
         "children": [
           {
-            "id": "03ff9fb62334dade",
+            "id": "519acc1c4fc8ceed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md",
+                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,17 +22,15 @@
         ]
       },
       {
-        "id": "9a188748942f5cfb",
+        "id": "5112e3cc23ea1aea",
         "type": "tabs",
         "children": [
           {
-            "id": "1d30bc9f50ae1de5",
+            "id": "0782b98947b5fa38",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CS2506 Operating Systems II/Notes/Problems I.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.50418853759766
+    "width": 221.50418853759766
   },
   "right": {
     "id": "c79b0ceb857946c8",
@@ -109,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md",
+                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md",
+                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md"
+                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md"
               }
             }
           },
@@ -180,52 +178,53 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "d3c01f208a3adabe",
+  "active": "519acc1c4fc8ceed",
   "lastOpenFiles": [
-    "CS2506 Operating Systems II/L6 01-02-2023 Load Balancing between cores.md",
-    "CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md",
-    "CS2506 Operating Systems II/Notes/Lecture 3.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 2.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 1.pdf",
-    "CS2506 Operating Systems II/L5 29-01-2024.md",
-    "CS2506 Operating Systems II/L1 15-01-2024.md",
-    "CS2506 Operating Systems II/L2 18-01-2024.md",
-    "CS2506 Operating Systems II/L4 25-01-2024.md",
-    "CS2506 Operating Systems II/Notes/Problems I.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 5.pdf",
-    "CS2516 Algorithms and Data Structures II/L8 - Stable sorting, Lexicographic order, Radix.md",
-    "CS2516 Algorithms and Data Structures II/L7 - Limits to Comparison Sorting + Counting Sort.md",
-    "Thoughts.md",
-    "CS2506 Operating Systems II/Notes/Lecture 4.pdf",
-    "CS2506 Operating Systems II/Lab Work/~WRL3871.tmp",
-    "CS2506 Operating Systems II/Lab Work/~WRD3867.tmp",
-    "CS2506 Operating Systems II/Lab Work/~WRD3860.tmp",
-    "CS2209 Information Storage And Management II/Lab Work/lab1/BandB+Trees.jpg",
-    "CS2514 Introduction to Java/Lab Work/Lab2/~$esults.docx",
-    "CS2208 Information Systems And Managment I/Indexing.md",
-    "CS2505 Network Computing/L2 18-01-2024.md",
-    "CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md",
-    "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
-    "Information Storage And Management II/L5 29-01-2024.md",
-    "Information Storage And Management II/Untitled.md",
-    "Network Computing/L5 29-01-2024 - Throughput and delays.md",
-    "Network Computing/L4 25-01-2024 - Packet Delay.md",
-    "Network Computing/L2 18-01-2024.md",
-    "Network Computing/Network Edge.md",
-    "Network Computing/Protocols.md",
-    "Network Computing/The Internet.md",
-    "Operating Systems II/Notes/L5 29-01-2024.md",
-    "Network Computing/Untitled.md",
-    "Operating Systems II/L4 25-01-2024.md",
-    "Linear Algebra/Linear Combinations and span.md",
-    "Images/Pasted image 20240118161632.png",
-    "Images/Pasted image 20240118161612.png",
-    "Images/Pasted image 20240118161546.png",
-    "Images/Pasted image 20240118161507.png",
-    "Images/Pasted image 20240118161020.png",
-    "Images/Pasted image 20240118155850.png",
-    "Images/Pasted image 20240118155655.png",
-    "Images/Pasted image 20240118155028.png",
-    "Images/Pasted image 20231209203532.png"
+    "CS2505 Network Computing/L7 12-02-2024.md",
+    "CS2505 Network Computing/Lecturers Notes/02-app-layer.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 9.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 7.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 6.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 5.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 4.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 3.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 23 (F) - Composition Example.pdf",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 23.pptx",
+    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 23 (E) - Yet more Regular Expressions.pdf",
+    "College/MA1058 Linear Algebra/Linear Combinations and span.md",
+    "College/Images/Pasted image 20240118161632.png",
+    "College/Images/Pasted image 20240118161612.png",
+    "College/Images/Pasted image 20240118161546.png",
+    "College/Images/Pasted image 20240118161507.png",
+    "College/Images/Pasted image 20240118161020.png",
+    "College/Images/Pasted image 20240118155850.png",
+    "College/Images/Pasted image 20240118155655.png",
+    "College/Images/Pasted image 20240118155028.png",
+    "College/Images/Pasted image 20231209203532.png",
+    "College/Images/Pasted image 20231209202258.png",
+    "College/CS2516 Algorithms and Data Structures II/Sorting.md",
+    "College/CS2516 Algorithms and Data Structures II/Recursion.md",
+    "College/CS2516 Algorithms and Data Structures II/L7 - Limits to Comparison Sorting + Counting Sort.md",
+    "College/CS2516 Algorithms and Data Structures II/L8 - Stable sorting, Lexicographic order, Radix.md",
+    "College/CS2516 Algorithms and Data Structures II/Complexity Analysis.md",
+    "College/CS2515 Algorithms and Data Structures I/Binary Search Trees.md",
+    "College/CS2515 Algorithms and Data Structures I/AVL Trees.md",
+    "College/CS2515 Algorithms and Data Structures I/Array Based Lists.md",
+    "College/CS2515 Algorithms and Data Structures I/Binary Heap.md",
+    "College/CS2515 Algorithms and Data Structures I/Abstract Data Type.md",
+    "College/CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md",
+    "College/CS2506 Operating Systems II/L6 01-02-2023 Load Balancing between cores.md",
+    "College/CS2506 Operating Systems II/L2 18-01-2024.md",
+    "College/CS2506 Operating Systems II/L1 15-01-2024.md",
+    "College/CS2506 Operating Systems II/L4 25-01-2024.md",
+    "College/CS2506 Operating Systems II/L5 29-01-2024.md",
+    "College/CS2505 Network Computing/The Internet.md",
+    "College/CS2505 Network Computing/Protocols.md",
+    "College/CS2505 Network Computing/Network Edge.md",
+    "College/CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md",
+    "College/CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
+    "College/CS2505 Network Computing/L2 18-01-2024.md",
+    "College/CS2503 Operating Systems I/wc.md",
+    "College/CS2503 Operating Systems I/ls.md"
   ]
 }
