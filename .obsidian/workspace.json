@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "32b1e1760b02349a",
+        "id": "b1f1600a5598f87b",
         "type": "tabs",
         "children": [
           {
-            "id": "519acc1c4fc8ceed",
+            "id": "1d577790c532ce2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
+                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,15 +22,17 @@
         ]
       },
       {
-        "id": "5112e3cc23ea1aea",
+        "id": "8356d70a8993b36e",
         "type": "tabs",
         "children": [
           {
-            "id": "0782b98947b5fa38",
+            "id": "a826499df5a86189",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "CS2209 Information Storage And Management II/Notes/Lecture 8.pdf"
+              }
             }
           }
         ]
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
+                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
+                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md"
+                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md"
               }
             }
           },
@@ -178,19 +180,23 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "519acc1c4fc8ceed",
+  "active": "1d577790c532ce2a",
   "lastOpenFiles": [
+    "CS2514 Introduction to Java/Lab Work/Lab3/diamond.java",
+    "CS2514 Introduction to Java/Lab Work/Lab3/left_stars.java",
+    "CS2514 Introduction to Java/Lab Work/Lab3/right_stars.java",
+    "CS2514 Introduction to Java/Lab Work/Lab3/java practical 3.pdf",
+    "CS2514 Introduction to Java/Lab Work/Lab3/grades.java",
+    "CS2514 Introduction to Java/Lab Work/Lab3/perfect_number.java",
+    "CS2514 Introduction to Java/Lab Work/Lab3/coffee.java",
+    "CS2514 Introduction to Java/Lab Work/Lab3",
+    "CS2209 Information Storage And Management II/Notes/Lecture 8.pdf",
+    "CS2209 Information Storage And Management II/L8 12-02-2024.md",
+    "CS2209 Information Storage And Management II/Notes/Lecture 7.pdf",
+    "CS2209 Information Storage And Management II/Notes/Lecture 6.pdf",
+    "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
+    "CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md",
     "CS2505 Network Computing/L7 12-02-2024.md",
-    "CS2505 Network Computing/Lecturers Notes/02-app-layer.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 9.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 7.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 6.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 5.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 4.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 3.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 23 (F) - Composition Example.pdf",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 23.pptx",
-    "CS2513 Intermediate Programming/Notes/CS2513 - Lecture 23 (E) - Yet more Regular Expressions.pdf",
     "College/MA1058 Linear Algebra/Linear Combinations and span.md",
     "College/Images/Pasted image 20240118161632.png",
     "College/Images/Pasted image 20240118161612.png",
@@ -221,10 +227,6 @@
     "College/CS2505 Network Computing/The Internet.md",
     "College/CS2505 Network Computing/Protocols.md",
     "College/CS2505 Network Computing/Network Edge.md",
-    "College/CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md",
-    "College/CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
-    "College/CS2505 Network Computing/L2 18-01-2024.md",
-    "College/CS2503 Operating Systems I/wc.md",
-    "College/CS2503 Operating Systems I/ls.md"
+    "College/CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md"
   ]
 }
