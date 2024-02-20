@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b1f1600a5598f87b",
+        "id": "6fb19720b0cdc515",
         "type": "tabs",
         "children": [
           {
-            "id": "1d577790c532ce2a",
+            "id": "d4111c435065a16d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md",
+                "file": "CS2506 Operating Systems II/Q+A 20-02-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "8356d70a8993b36e",
+        "id": "d199aa1ad2916e22",
         "type": "tabs",
         "children": [
           {
-            "id": "a826499df5a86189",
+            "id": "e1401a5bfa7ee91c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "CS2209 Information Storage And Management II/Notes/Lecture 8.pdf"
+                "file": "CS2506 Operating Systems II/Notes/Lecture 2.pdf"
               }
             }
           }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md",
+                "file": "CS2506 Operating Systems II/Q+A 20-02-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md",
+                "file": "CS2506 Operating Systems II/Q+A 20-02-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2209 Information Storage And Management II/L8 12-02-2024.md"
+                "file": "CS2506 Operating Systems II/Q+A 20-02-2024.md"
               }
             }
           },
@@ -180,23 +180,28 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "1d577790c532ce2a",
+  "active": "d4111c435065a16d",
   "lastOpenFiles": [
-    "CS2514 Introduction to Java/Lab Work/Lab3/diamond.java",
-    "CS2514 Introduction to Java/Lab Work/Lab3/left_stars.java",
-    "CS2514 Introduction to Java/Lab Work/Lab3/right_stars.java",
-    "CS2514 Introduction to Java/Lab Work/Lab3/java practical 3.pdf",
-    "CS2514 Introduction to Java/Lab Work/Lab3/grades.java",
-    "CS2514 Introduction to Java/Lab Work/Lab3/perfect_number.java",
-    "CS2514 Introduction to Java/Lab Work/Lab3/coffee.java",
-    "CS2514 Introduction to Java/Lab Work/Lab3",
-    "CS2209 Information Storage And Management II/Notes/Lecture 8.pdf",
-    "CS2209 Information Storage And Management II/L8 12-02-2024.md",
-    "CS2209 Information Storage And Management II/Notes/Lecture 7.pdf",
-    "CS2209 Information Storage And Management II/Notes/Lecture 6.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 2.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 1.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 7.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 6.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 3.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 5.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 4.pdf",
+    "CS2506 Operating Systems II/Q+A 20-02-2024.md",
+    "CS2506 Operating Systems II/Lecture_10.md",
+    "CS2505 Network Computing/L9 19-02-2024 - Mail and DNS.md",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob6.java",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob5.java",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob4.java",
+    "CS2505 Network Computing/L8 15-02-2024.md",
     "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
-    "CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md",
     "CS2505 Network Computing/L7 12-02-2024.md",
+    "CS2516 Algorithms and Data Structures II/L9 - Selecting kth item from unordered list.md",
+    "CS2516 Algorithms and Data Structures II/L8 - Stable sorting, Lexicographic order, Radix.md",
+    "CS2209 Information Storage And Management II/L8 12-02-2024.md",
+    "CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md",
     "College/MA1058 Linear Algebra/Linear Combinations and span.md",
     "College/Images/Pasted image 20240118161632.png",
     "College/Images/Pasted image 20240118161612.png",
@@ -221,12 +226,6 @@
     "College/CS2506 Operating Systems II/L7 08-02-2024 - Scheduling.md",
     "College/CS2506 Operating Systems II/L6 01-02-2023 Load Balancing between cores.md",
     "College/CS2506 Operating Systems II/L2 18-01-2024.md",
-    "College/CS2506 Operating Systems II/L1 15-01-2024.md",
-    "College/CS2506 Operating Systems II/L4 25-01-2024.md",
-    "College/CS2506 Operating Systems II/L5 29-01-2024.md",
-    "College/CS2505 Network Computing/The Internet.md",
-    "College/CS2505 Network Computing/Protocols.md",
-    "College/CS2505 Network Computing/Network Edge.md",
-    "College/CS2505 Network Computing/L4 25-01-2024 - Packet Delay.md"
+    "College/CS2506 Operating Systems II/L1 15-01-2024.md"
   ]
 }
