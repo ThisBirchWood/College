@@ -1,0 +1,22 @@
+# Mobile OS
+- wank
+- Android Runtime has faster execution
+- App is identified in the system by an app ID
+	- an app is equivalent to a process
+	- inside the app are activities that make up the application
+	- each activity can be an entry point into the app (no main() function)
+- Graph of time access app (process)
+	- at time slice 1: app is created (resources are allocated)
+	- next time slice: app is visible (on the screen)
+	- next: application is running and interacting with user
+	- app is terminated
+	- each time slice is greater than the previous as app is getting requeued
+- URL specifies the location of a resource on the internet, while a URI can be used to identify any type of resource, not just those on the internet
+- intent purpose is to address the next component to execute - can be within the same process or in a different process
+- intent is a mechanism for inter-process communication
+- start the app(A) -> new task is created by Android
+	- task manages execution flow by using a stack
+	- each activity goes into the stack
+	- we can go up or down the stack
+	- when a new app is run the stack of the previous application is still kept in memory
+	- After some time, if Android is looking for memory, it will trim stack to the root activity

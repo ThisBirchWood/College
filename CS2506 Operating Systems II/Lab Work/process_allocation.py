@@ -8,7 +8,7 @@ class process_allocation:
             if i not in self.processes:
                 self.processes.add(i)
                 print(f"Allocated id {i}")
-                return id
+                return i
         return -1
 
     def release_id(self, id: int) -> bool:
