@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "d199aa1ad2916e22",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e1401a5bfa7ee91c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CS2506 Operating Systems II/Notes/Lecture 2.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50418853759766
+    "width": 373.5
   },
   "right": {
     "id": "c79b0ceb857946c8",
@@ -180,21 +164,25 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "d4111c435065a16d",
+  "active": "d3c01f208a3adabe",
   "lastOpenFiles": [
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob4flowchart.drawio",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob3flowchart.drawio.png",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob3flowchart.drawio.crswap",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob3flowchart.drawio",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob2flowchart.drawio.png",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob2flowchart.drawio.crswap",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob2flowchart.drawio",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob1flowchart.drawio.png",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob1flowchart.drawio.crswap",
+    "CS2514 Introduction to Java/Lab Work/Lab4/prob1flowchart.drawio",
     "CS2506 Operating Systems II/Notes/Lecture 2.pdf",
     "CS2506 Operating Systems II/Notes/Lecture 1.pdf",
     "CS2506 Operating Systems II/Notes/Lecture 7.pdf",
     "CS2506 Operating Systems II/Notes/Lecture 6.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 3.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 5.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 4.pdf",
     "CS2506 Operating Systems II/Q+A 20-02-2024.md",
     "CS2506 Operating Systems II/Lecture_10.md",
     "CS2505 Network Computing/L9 19-02-2024 - Mail and DNS.md",
-    "CS2514 Introduction to Java/Lab Work/Lab4/prob6.java",
-    "CS2514 Introduction to Java/Lab Work/Lab4/prob5.java",
-    "CS2514 Introduction to Java/Lab Work/Lab4/prob4.java",
     "CS2505 Network Computing/L8 15-02-2024.md",
     "CS2505 Network Computing/L5 29-01-2024 - Throughput and delays.md",
     "CS2505 Network Computing/L7 12-02-2024.md",
@@ -210,9 +198,6 @@
     "College/Images/Pasted image 20240118161020.png",
     "College/Images/Pasted image 20240118155850.png",
     "College/Images/Pasted image 20240118155655.png",
-    "College/Images/Pasted image 20240118155028.png",
-    "College/Images/Pasted image 20231209203532.png",
-    "College/Images/Pasted image 20231209202258.png",
     "College/CS2516 Algorithms and Data Structures II/Sorting.md",
     "College/CS2516 Algorithms and Data Structures II/Recursion.md",
     "College/CS2516 Algorithms and Data Structures II/L7 - Limits to Comparison Sorting + Counting Sort.md",
