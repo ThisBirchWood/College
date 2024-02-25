@@ -1,0 +1,5 @@
+- To traverse a graph, you must avoid looping
+- First edge we try is the west edge, then go to north west, then north
+	- Go clockwise
+- Red arrows in graph form a tree (spanning tree)
+- 

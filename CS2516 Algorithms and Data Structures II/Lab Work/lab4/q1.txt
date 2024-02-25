@@ -1,0 +1,26 @@
+Question 1
+Methods for:
+
+Vertex:
+    element()
+Edge:
+    vertices()
+    opposite(x)
+    element()
+Graph:
+    vertices()
+    edges()
+    num_vertices()
+    num_edges()
+
+    get_edge(x, y)
+    degree(x)
+    get_edges(x)
+
+    add_vertex(elt)
+    add_edge(x, y, elt)
+
+    remove_vertex(x)
+    remove_edge(e)
+
+Question 2

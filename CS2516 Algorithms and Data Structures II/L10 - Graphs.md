@@ -1,0 +1,10 @@
+- Hello Dylan De Faoite, here are the notes from algorithms today that includes all the stuff that was said that was not in the slides. Hope you are enjoying London, please read these notes ASAP
+- Road network in Ireland is represented as a graph, where every junction is a node
+- Multi-graph - can have multiple edges between two nodes
+- We will maintain ADTs for a vertex and an edge
+- How will we store and retrieve the edges:
+	- 2 Linked Lists (one of vertices and one of edges) - slow
+	- Each vertex has an array of connections, also have a data structure with all edges
+	- Hash Table - key is the vertex object, value is the list of connections *or* key is vertex object and value is another dictionary where key is another vertex and value is edge object between two vertices - can be overkill if you don't have many connections
+	- Matrix, where cell\[i]\[j] contains a reference to the edge between i and j - adding and removing is O(n<sup>2</sup>) - if you know you're never going to update your graph that is acceptable but space complexity if still high (O(n<sup>2</sup>))
+- Typically we don't sort the lists
