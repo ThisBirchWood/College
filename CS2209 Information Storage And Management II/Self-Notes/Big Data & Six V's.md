@@ -7,7 +7,7 @@
 	- Video recognition
 	- Car-based computing
 
-# Three V's
+# Six V's
 ## Volume
 - Big Data involves huge amounts of data that traditional data processing systems would struggle to handle
 - Examples:
@@ -36,6 +36,19 @@
 - No structure in different types
 - texts, PDFs, images and videos
 
+## Veracity
+- The degree of trust on big data
+	- Authenticity
+	- Availability
+	- Accountability
+	- Trustworthiness
+## Variability
+- Shifts in data
+## Value
+- Extraction of valuable insights and knowledge from data
+
+
+Abbreviation (to remember easily): VVVVVV
 # Things to consider
 - What are some things we have to consider with big data:
 	- Improving performance of databases
@@ -44,4 +57,3 @@
 	- Supporting scalability using **distributed databases**
 	- Ingesting and securing our data
 	- Anonymize our data
-- 
