@@ -3,7 +3,7 @@
 	- Sensors
 	- NFC
 	- Barcodes
-	- Localising (GPS, WiFi)
+	- Localising (GPS, Wi-Fi)
 	- Video recognition
 	- Car-based computing
 
@@ -15,7 +15,6 @@
 	- Social Networks
 	- Transactions
 - 1MB = 1,000,000 bytes
-
 ## Velocity
 - Big Data is generated and processed rapidly
 - Examples:
