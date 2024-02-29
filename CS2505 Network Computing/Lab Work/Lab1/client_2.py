@@ -25,7 +25,7 @@ try:
     # Data is transmitted to the server with sendall()
     # encode() function returns bytes object
     sock.sendall(message.encode())
-    
+
     for i in range(ceil(len(message)/16)*2):
     	# Data is read from the connection with recv()
         # decode() function returns string object
