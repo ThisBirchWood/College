@@ -5,6 +5,12 @@ class vertex:
     def __str__(self):
         return f"({self.value})"
     
+    def __hash__(self):
+        return hash(self.value)
+    
+    def __eq__(self, v):
+        return self.value == v
+    
     def element(self):
         return self.value
     
@@ -35,7 +41,7 @@ class edge:
     def second_vertex(self):
         return self.vert2
     
-class graph:
+class graph_al:
     def __init__(self):
         self.adjacency_list = {}
         self.all_vertices = []
@@ -101,36 +107,62 @@ class graph:
         self.adjacency_list[second_vertex].remove(e)
         self.all_edges.remove(e)
 
-class graph:
+class graph_am:
     def __init__(self):
-        self.adjancency_map = {}
+        self.adjacency_map = {}
 
     def __str__(self):
-        pass
+        result = ""
+        for vertex, neighbors in self.adjacency_map.items():
+            result += f"({vertex}): {[str(neighbors[x]) for x in neighbors]}\n"
+        return result
 
     def vertices(self):
-        return self.adjancency_map.keys()
+        return self.adjacency_map.keys()
         
     def edges(self):
-        return self.adjancency_map
+        edges = set()
+        for vertex1 in self.adjacency_map:
+            for vertex2 in self.adjacency_map[vertex1]:
+                edges.add(self.adjacency_map[vertex1][vertex2])
+
+        return edges
     
     def num_vertices(self):
+        return len(self.adjacency_map.keys())
     
     def num_edges(self):
+        return len(self.edges())
     
     def get_edge(self, x, y):
+        return self.adjacency_map[x][y]
             
     def degree(self, x):
+        return len(self.adjacency_map[x])
     
     def get_edges(self, x):
+        return self.adjacency_map[x].values()
     
     def add_vertex(self, elt):
+        v = vertex(elt)
+        self.adjacency_map[v] = {}
+        return v
 
     def add_edge(self, x, y, elt):
+        new_edge = edge(x, y, elt)
+        self.adjacency_map[x][y] = new_edge
+        self.adjacency_map[y][x] = new_edge
+        return new_edge
 
     def remove_vertex(self, x):
+        v = self.adjacency_map[x]
+        for vertex in v:
+            del self.adjacency_map[vertex][x]
+        del self.adjacency_map[x]
 
     def remove_edge(self, e):
+        del self.adjacency_map[e.vert1][e.vert2]
+        del self.adjacency_map[e.vert2][e.vert1]
 
 def test_graph_class(graph_function):
     g = graph_function()
@@ -143,8 +175,15 @@ def test_graph_class(graph_function):
     g.add_edge(b, c, "X")
     g.add_edge(b, d, "Y")
     g.add_edge(e, c, "Z")
-    g.add_edge(f, g, "")
+    g.add_edge(f, g1, "j")
     print(g)
     print("------------------------------")
     g.remove_vertex(b)
     print(g)
+    b = g.add_vertex("B")
+    g.add_edge(b, f, "BF")
+    print(g.num_edges())
+    print(g)
+
+#test_graph_class(graph_al)
+#test_graph_class(graph_am)
