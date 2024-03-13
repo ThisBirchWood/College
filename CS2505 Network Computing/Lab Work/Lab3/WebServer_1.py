@@ -37,28 +37,27 @@ while True:
 
         if not message.startswith("GET"):
             connectionSocket.sendall("400 Bad Request".encode())
-            break
         elif "HTTP/1.1" not in message:
             connectionSocket.sendall("505 HTTP Version Not Supported")
-            break
-        # Extract the path of the requested object from the message
-        # The path is the second part of HTTP header, identified by [1]
-        filename = message.split()[1]
-        # Because the extracted path of the HTTP request includes 
-        # a character '\', we read the path from the second character 
-        with open(filename[1:], 'r') as f:
-            # Store the entire contenet of the requested file in a temporary buffer
-            outputdata = f.read()
-        # Send the HTTP response header line to the connection socket
-        connectionSocket.sendall("HTTP/1.1 200 OK\r\n".encode())
-        connectionSocket.sendall('Content-Type: text/html\r\n\r\n'.encode())
+        else:
+            # Extract the path of the requested object from the message
+            # The path is the second part of HTTP header, identified by [1]
+            filename = message.split()[1]
+            # Because the extracted path of the HTTP request includes 
+            # a character '\', we read the path from the second character 
+            with open(filename[1:], 'r') as f:
+                # Store the entire contenet of the requested file in a temporary buffer
+                outputdata = f.read()
+            # Send the HTTP response header line to the connection socket
+            connectionSocket.sendall("HTTP/1.1 200 OK\r\n".encode())
+            connectionSocket.sendall('Content-Type: text/html\r\n\r\n'.encode())
 
-        # Send the content of the requested file to the connection socket
-        for i in range(0, len(outputdata)):  
-            connectionSocket.send(outputdata[i].encode())
-        connectionSocket.send("\r\n".encode())
+            # Send the content of the requested file to the connection socket
+            for i in range(0, len(outputdata)):  
+                connectionSocket.send(outputdata[i].encode())
+            connectionSocket.send("\r\n".encode())
 
-        # Close the client connection socket
+            # Close the client connection socket
         connectionSocket.close()
 
     except IOError:
