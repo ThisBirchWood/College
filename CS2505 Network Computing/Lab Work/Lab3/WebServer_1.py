@@ -38,13 +38,14 @@ while True:
         if not message.startswith("GET"):
             connectionSocket.sendall("400 Bad Request".encode())
         elif "HTTP/1.1" not in message:
-            connectionSocket.sendall("505 HTTP Version Not Supported")
+            connectionSocket.sendall("505 HTTP Version Not Supported".encode())
         else:
             # Extract the path of the requested object from the message
             # The path is the second part of HTTP header, identified by [1]
             filename = message.split()[1]
             # Because the extracted path of the HTTP request includes 
             # a character '\', we read the path from the second character 
+            print(message)
             with open(filename[1:], 'r') as f:
                 # Store the entire contenet of the requested file in a temporary buffer
                 outputdata = f.read()

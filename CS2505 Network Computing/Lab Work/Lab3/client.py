@@ -1,6 +1,6 @@
 import socket, sys
 
-thisfile, ip_addr, port, filename = sys.argv
+thisfile, ip_addr, port, request = sys.argv
 port = int(port)
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -11,7 +11,7 @@ print('connecting to server at %s port %s' % server_address)
 
 sock.connect(server_address)
 print('connected!')
-sock.sendall(f"GET /{filename} HTTP/1.1".encode())
+sock.sendall(request.encode())
 message = ''
 
 while True:

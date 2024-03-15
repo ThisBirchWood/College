@@ -4,22 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "e4fd77376cd9a944",
+        "id": "5e6a85ae63770e18",
         "type": "tabs",
         "children": [
           {
-            "id": "61ef4b768fc510f5",
+            "id": "649a5dabf86575ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2506 Operating Systems II/Self-Notes/Operating Systems.md",
+                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "1713ee195b06c487",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "050891656d617926",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf"
+              }
+            }
+          },
+          {
+            "id": "f3aa3e6b1c0b83d6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "CS2505 Network Computing/Lecturers Notes/01-basics.pdf"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.50418853759766
+    "width": 393.50418853759766
   },
   "right": {
     "id": "c79b0ceb857946c8",
@@ -93,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2506 Operating Systems II/Self-Notes/Operating Systems.md",
+                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2506 Operating Systems II/Self-Notes/Operating Systems.md",
+                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2506 Operating Systems II/Self-Notes/Operating Systems.md"
+                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md"
               }
             }
           },
@@ -164,52 +191,53 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "61ef4b768fc510f5",
+  "active": "649a5dabf86575ad",
   "lastOpenFiles": [
-    "CS2516 Algorithms and Data Structures II/Complexity Analysis.md",
-    "CS2505 Network Computing/Lab Work/Lab2/server_2.py",
-    "CS2505 Network Computing/Lab Work/Lab2/log.txt",
-    "CS2505 Network Computing/Lab Work/Lab1/log.txt",
-    "CS2514 Introduction to Java/Lab Work/Lab5/subjects.png",
-    "CS2514 Introduction to Java/Lab Work/Lab5/strings.java",
-    "CS2514 Introduction to Java/Lab Work/Lab5/hash.png",
-    "CS2514 Introduction to Java/Lab Work/Lab5/Results.pdf",
-    "CS2514 Introduction to Java/Lab Work/Lab5/Results.docx",
-    "CS2514 Introduction to Java/Lab Work/Lab5/1.drawio",
+    "CS2506 Operating Systems II/Lab Work/Lab2/mem.py",
+    "CS2506 Operating Systems II/Lab Work/Lab2/mem.pt",
+    "CS2505 Network Computing/Lecturers Notes/01-basics.pdf",
+    "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
+    "CS2505 Network Computing/Self Notes/Protocols.md",
+    "CS2505 Network Computing/Self Notes/The Internet.md",
+    "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf",
+    "CS2506 Operating Systems II/L16 14-03-2024.md",
+    "CS2506 Operating Systems II/Notes/Lecture 14.pdf",
+    "CS2506 Operating Systems II/Notes/Lecture 13.pdf",
+    "CS2506 Operating Systems II/L15 11-03-2024.md",
+    "CS2505 Network Computing/L15 14-03-2024.md",
+    "CS2505 Network Computing/L7 12-02-2024.md",
+    "CS2505 Network Computing/L8 15-02-2024.md",
+    "CS2505 Network Computing/L9 19-02-2024 - Mail and DNS.md",
+    "CS2515 Algorithms and Data Structures I/Binary Heap.md",
+    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/__pycache__/random_graphs.cpython-310.pyc",
+    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/__pycache__/pq.cpython-310.pyc",
+    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/prims.py",
+    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/pq.py",
+    "CS2516 Algorithms and Data Structures II/L15 - Kruskal's Algorithm.md",
+    "CS2515 Algorithms and Data Structures I/Priority Queue.md",
+    "CS2505 Network Computing/Lab Work/Lab3/chicken6.jpg",
+    "CS2505 Network Computing/Lab Work/Lab3/chicken5.jpg",
+    "CS2505 Network Computing/Lab Work/Lab3/chicken4.jpg",
+    "CS2505 Network Computing/Lab Work/Lab3/chicken3.jpg",
+    "CS2505 Network Computing/Lab Work/Lab3/chicken2.jpg",
+    "CS2505 Network Computing/Lab Work/Lab3/chicken1.png",
+    "CS2505 Network Computing/Lab Work/Lab3/background.jpg",
+    "CS2505 Network Computing/Lab Work/Lab3/styles.css",
+    "CS2505 Network Computing/L14 11-03-2024.md",
+    "CS2506 Operating Systems II/Self-Notes/Process Scheduling.md",
+    "CS2506 Operating Systems II/Self-Notes/Threads.md",
     "CS2506 Operating Systems II/Self-Notes/Processes.md",
+    "Images/Pasted image 20240311103944.png",
+    "Images/Pasted image 20240311103639.png",
+    "CS2506 Operating Systems II/Self-Notes/Operating Systems.md",
+    "CS2516 Algorithms and Data Structures II/Complexity Analysis.md",
+    "CS2514 Introduction to Java/Lab Work/Lab5/subjects.png",
     "CS2506 Operating Systems II/L1 15-01-2024.md",
     "CS2506 Operating Systems II/L2 18-01-2024.md",
     "CS2506 Operating Systems II/L4 25-01-2024.md",
     "CS2506 Operating Systems II/L10 26-02-2024 - Virtual Memory.md",
     "CS2506 Operating Systems II/Lecture_10.md",
     "CS2506 Operating Systems II/L14 07-03-2024.md",
-    "CS2506 Operating Systems II/L13 29-02-2024.md",
-    "CS2505 Network Computing/Self Notes/L14 07-03-2024.md",
-    "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf",
-    "CS2505 Network Computing/Lecturers Notes/02-app-layer.pdf",
-    "CS2516 Algorithms and Data Structures II/L8 - Stable sorting, Lexicographic order, Radix.md",
-    "CS2516 Algorithms and Data Structures II/Self-Notes/Insertion Sort.md",
-    "CS2516 Algorithms and Data Structures II/Notes/L04-Sorting.pdf",
-    "CS2516 Algorithms and Data Structures II/Self-Notes/Selection Sort.md",
-    "Images/Pasted image 20240305132048.png",
-    "Images/Pasted image 20240305132030.png",
-    "Images/Pasted image 20240305131957.png",
-    "CS2516 Algorithms and Data Structures II/Self-Notes/Bubblesort ❤️.md",
-    "CS2516 Algorithms and Data Structures II/L7 - Limits to Comparison Sorting + Counting Sort.md",
-    "CS2516 Algorithms and Data Structures II/Self-Notes/Recursion.md",
-    "CS2516 Algorithms and Data Structures II/Self-Notes/Complexity Analysis.md",
-    "Images/Pasted image 20240305125219.png",
-    "Images/Pasted image 20240305125204.png",
-    "Images/Pasted image 20240305125008.png",
-    "Images/Pasted image 20240305124445.png",
-    "Images/Pasted image 20240305123628.png",
-    "CS2516 Algorithms and Data Structures II/L14 - Prim's Algorithm.md",
-    "CS2515 Algorithms and Data Structures I/Priority Queue.md",
-    "CS2515 Algorithms and Data Structures I/Stack.md",
-    "CS2515 Algorithms and Data Structures I/Queue.md",
-    "CS2515 Algorithms and Data Structures I/Maps.md",
-    "CS2515 Algorithms and Data Structures I/Linked Lists.md",
-    "CS2515 Algorithms and Data Structures I/Array Based Lists.md",
-    "CS2515 Algorithms and Data Structures I/Abstract Data Type.md"
+    "CS2506 Operating Systems II/L13 29-02-2024.md"
   ]
 }
