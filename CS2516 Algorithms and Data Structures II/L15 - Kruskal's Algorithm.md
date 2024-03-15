@@ -1,0 +1,2 @@
+- Keep finding the cheapest edge between two any vertices
+	- That isn't connected to a vertex that's already in the tree
