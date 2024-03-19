@@ -3,7 +3,11 @@ PAGE_SIZE = 4
 RAM_SIZE = 4096
 
 class Page:
-    pass
+    def __init__(self, start_adr: int):
+        self.start_address = start_adr
+
+    def __str__(self):
+        return f"Page-SA:{self.start_address}"
 
 class Block:
     pass
@@ -14,7 +18,18 @@ class MemoryRequest:
         self.size = size
 
 class MemoryManager:
-    pass
+    def __init__(self, ram_size):
+        self.ram_size = ram_size
 
-class OperatingSystems:
-    pass
+
+class OperatingSystem:
+    def __init__(self):
+        pass
+
+    def request_memory(self, request: MemoryRequest):
+        pass
+
+
+
+
+

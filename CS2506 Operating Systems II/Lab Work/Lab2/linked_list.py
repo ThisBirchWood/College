@@ -28,6 +28,24 @@ class LinkedList:
 
         return string + "]"
     
+    def __repr__(self):
+        string = '['
+        current = self.start.next
+        for i in range(self.size):
+            if i > 0:
+                string += (', ' + str(current))
+            else:
+                string += str(current)
+            current = current.next
+
+        return string + "]"
+    
+    def __iter__(self):
+        cursor = self.start.next
+        while cursor != self.end:
+            yield cursor
+            cursor = cursor.next
+
     ## PRIVATE METHODS
     def _find_node_at_index(self, index) -> Node:
         if index >= self.size or index < 0:
@@ -36,6 +54,7 @@ class LinkedList:
         for i in range(index):
             current = current.next
         return current
+    
 
     ## PUBLIC METHODS
     def append(self, value) -> Node:
@@ -58,10 +77,36 @@ class LinkedList:
 
         return n 
     
-    def pop(self) -> Node:
+    def append_front(self, value) -> Node:
+        n = Node(value)
+
+        current_first_node = self.start.next
+
+        current_first_node.prev = n
+        self.start.next = n
+
+        n.prev = self.start
+        n.next = current_first_node
+
+        self.size += 1
+
+        return n
+    
+    def pop_front(self) -> Node:
+        node_to_remove = self.start.next
+        next_first_node = node_to_remove.next
+
+        self.start.next = next_first_node
+        next_first_node.prev = self.start
+
+        self.size -= 1
+
+        return node_to_remove.value
+    
+    def pop(self):
         '''
         Removes a node from the front of the list
-        Returns the removed Node object
+        Returns the element
 
         Time Complexity: O(1)
         '''
@@ -73,7 +118,7 @@ class LinkedList:
 
         self.size -= 1
 
-        return node_to_remove
+        return node_to_remove.value
     
     def insert(self, index: int, value) -> Node:
         '''
@@ -151,7 +196,7 @@ class LinkedList:
 
         self.size -= 1
 
-        return node_to_remove
+        return node_to_remove.value
     
     def remove(self, object: Node) -> None:
         '''
@@ -170,14 +215,32 @@ class LinkedList:
         next_node.prev = previous_node
 
         self.size -= 1
+
+    def remove_by_value(self, value):
+        element_to_remove = None
+        for element in self:
+            if element.value == value:
+                element_to_remove = element
+                self.remove(element_to_remove)
+                return
+        raise ValueError("Value not in List")
+
+
+
+
+    def last_element(self):
+        return self.end.prev.value
+        
         
     def length(self) -> int:
         return self.size
-
-l = LinkedList()
-l.append("Fortnite")
-l.append("Battle")
-l.append("Royale")
-print(l)
-l.pop()
-print(l)
+    
+if __name__ == "__main__":
+    l = LinkedList()
+    l.append(4)
+    l.append(6)
+    l.append(65)
+    print(l)
+    l.pop_front()
+    print(l)
+    l.append(583)
