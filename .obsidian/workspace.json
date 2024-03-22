@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5e6a85ae63770e18",
+        "id": "1713ee195b06c487",
         "type": "tabs",
         "children": [
           {
-            "id": "649a5dabf86575ad",
+            "id": "050891656d617926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
+                "file": "CS2505 Network Computing/L16 21-03-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "1713ee195b06c487",
+        "id": "d8acdf83a02e7fb6",
         "type": "tabs",
         "children": [
           {
-            "id": "050891656d617926",
+            "id": "cc86d59cb34a7125",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -34,19 +34,8 @@
                 "file": "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf"
               }
             }
-          },
-          {
-            "id": "f3aa3e6b1c0b83d6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CS2505 Network Computing/Lecturers Notes/01-basics.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
+                "file": "CS2505 Network Computing/L16 21-03-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
+                "file": "CS2505 Network Computing/L16 21-03-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2505 Network Computing/Self Notes/Structure of the Internet.md"
+                "file": "CS2505 Network Computing/L16 21-03-2024.md"
               }
             }
           },
@@ -191,15 +180,16 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "649a5dabf86575ad",
+  "active": "050891656d617926",
   "lastOpenFiles": [
+    "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf",
+    "CS2505 Network Computing/L16 21-03-2024.md",
+    "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
     "CS2506 Operating Systems II/Lab Work/Lab2/mem.py",
     "CS2506 Operating Systems II/Lab Work/Lab2/mem.pt",
     "CS2505 Network Computing/Lecturers Notes/01-basics.pdf",
-    "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
     "CS2505 Network Computing/Self Notes/Protocols.md",
     "CS2505 Network Computing/Self Notes/The Internet.md",
-    "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf",
     "CS2506 Operating Systems II/L16 14-03-2024.md",
     "CS2506 Operating Systems II/Notes/Lecture 14.pdf",
     "CS2506 Operating Systems II/Notes/Lecture 13.pdf",
@@ -222,7 +212,6 @@
     "CS2505 Network Computing/Lab Work/Lab3/chicken2.jpg",
     "CS2505 Network Computing/Lab Work/Lab3/chicken1.png",
     "CS2505 Network Computing/Lab Work/Lab3/background.jpg",
-    "CS2505 Network Computing/Lab Work/Lab3/styles.css",
     "CS2505 Network Computing/L14 11-03-2024.md",
     "CS2506 Operating Systems II/Self-Notes/Process Scheduling.md",
     "CS2506 Operating Systems II/Self-Notes/Threads.md",
@@ -237,7 +226,6 @@
     "CS2506 Operating Systems II/L4 25-01-2024.md",
     "CS2506 Operating Systems II/L10 26-02-2024 - Virtual Memory.md",
     "CS2506 Operating Systems II/Lecture_10.md",
-    "CS2506 Operating Systems II/L14 07-03-2024.md",
-    "CS2506 Operating Systems II/L13 29-02-2024.md"
+    "CS2506 Operating Systems II/L14 07-03-2024.md"
   ]
 }
