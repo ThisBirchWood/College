@@ -75,7 +75,7 @@ class graph_am:
         return result
     
     def vertices(self):
-        return self.adjacency_map.keys()
+        return list(self.adjacency_map.keys())
         
     def edges(self):
         edges = set()
@@ -109,8 +109,6 @@ class graph_am:
         return v
 
     def add_edge(self, x, y, elt):
-        if x not in self.adjacency_map or y not in self.adjacency_map:
-            raise ValueError("One or more vertices not in the graph")
         new_edge = edge(x, y, elt)
         self.adjacency_map[x][y] = new_edge
         self.adjacency_map[y][x] = new_edge

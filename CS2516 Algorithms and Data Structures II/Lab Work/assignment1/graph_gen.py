@@ -1,5 +1,5 @@
 from graph import graph_am, edge, vertex
-from random import randint, seed
+from random import randint, seed, sample, shuffle
 
 class graph_generator():
     def __init__(self):
@@ -38,22 +38,24 @@ class graph_generator():
 
         # calculate the amount of new edges that can be added
         amount_new_edges = m - (n - 1)
+        all_edges = []
+        print("Adding New Edges")
         if amount_new_edges > 0:
-            for i in range(amount_new_edges):
-                random_vertex_1 = randint(0, n-1)
-                random_vertex_2 = randint(0, n-1)
-                while random_vertex_2 == random_vertex_1:
-                    random_vertex_2 = randint(0, n-1)
+        
+            for i in range(n):
+                for j in range(i+1, n):
+                    if vertices[j] not in g.adjacency_map[vertices[i]]:
+                        all_edges.append((vertices[i], vertices[j]))
 
-                random_vertex_1 = vertices[random_vertex_1]
-                random_vertex_2 = vertices[random_vertex_2]
+            edges = sample(all_edges, amount_new_edges)
 
-                if not g.is_edge(random_vertex_1, random_vertex_2):
-                    g.add_edge(random_vertex_1, random_vertex_2, randint(1, 20))
-                
+            for edge in edges:
+                g.add_edge(edge[0], edge[1], randint(1, 20))
 
         return g
     
+    
 if __name__ == "__main__":
     r = graph_generator()
-    print(r.generate_graph(2500, 0.5))
+    t = r.generate_graph(2500, 0.5)
+    print(len(t.edges()))
