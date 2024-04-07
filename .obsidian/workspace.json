@@ -4,35 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1713ee195b06c487",
+        "id": "49693f7b5272fd84",
         "type": "tabs",
         "children": [
           {
-            "id": "050891656d617926",
+            "id": "2238e0c7270020d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS2505 Network Computing/L16 21-03-2024.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d8acdf83a02e7fb6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cc86d59cb34a7125",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS2505 Network Computing/L16 21-03-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2505 Network Computing/L16 21-03-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CS2505 Network Computing/L16 21-03-2024.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,29 +156,32 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "050891656d617926",
+  "active": "d3c01f208a3adabe",
   "lastOpenFiles": [
+    "CS2516 Algorithms and Data Structures II/Notes/L12-BreadthFirst.pdf",
+    "CS2516 Algorithms and Data Structures II/Notes/L13-AdaptablePriorityQueue.pdf",
+    "CS2516 Algorithms and Data Structures II/Notes/L14-MSTPrims.pdf",
+    "CS2516 Algorithms and Data Structures II/Notes/L15-MSTKruskals.pdf",
+    "CS2516 Algorithms and Data Structures II/Notes/L16-ShortestWeightedPath.pdf",
+    "CS2516 Algorithms and Data Structures II/Notes/L17-AllPairsShortestPaths.pdf",
+    "CS2516 Algorithms and Data Structures II/Notes/L18-DAG.pdf",
+    "CS2505 Network Computing/L2 18-01-2024.md",
+    "CS2505 Network Computing/Lecturers Notes/01-basics.pdf",
+    "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
+    "Images/Pasted image 20240326164723.png",
+    "CS2505 Network Computing/Lecturers Notes/02-app-layer.pdf",
+    "CS2505 Network Computing/Self Notes/The Internet.md",
+    "CS2505 Network Computing/Self Notes/Protocols.md",
     "CS2505 Network Computing/Lecturers Notes/03-trans-layer.pdf",
     "CS2505 Network Computing/L16 21-03-2024.md",
-    "CS2505 Network Computing/Self Notes/Structure of the Internet.md",
     "CS2506 Operating Systems II/Lab Work/Lab2/mem.py",
-    "CS2506 Operating Systems II/Lab Work/Lab2/mem.pt",
-    "CS2505 Network Computing/Lecturers Notes/01-basics.pdf",
-    "CS2505 Network Computing/Self Notes/Protocols.md",
-    "CS2505 Network Computing/Self Notes/The Internet.md",
     "CS2506 Operating Systems II/L16 14-03-2024.md",
-    "CS2506 Operating Systems II/Notes/Lecture 14.pdf",
-    "CS2506 Operating Systems II/Notes/Lecture 13.pdf",
     "CS2506 Operating Systems II/L15 11-03-2024.md",
     "CS2505 Network Computing/L15 14-03-2024.md",
     "CS2505 Network Computing/L7 12-02-2024.md",
     "CS2505 Network Computing/L8 15-02-2024.md",
     "CS2505 Network Computing/L9 19-02-2024 - Mail and DNS.md",
     "CS2515 Algorithms and Data Structures I/Binary Heap.md",
-    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/__pycache__/random_graphs.cpython-310.pyc",
-    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/__pycache__/pq.cpython-310.pyc",
-    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/prims.py",
-    "CS2516 Algorithms and Data Structures II/Lab Work/assignment1/pq.py",
     "CS2516 Algorithms and Data Structures II/L15 - Kruskal's Algorithm.md",
     "CS2515 Algorithms and Data Structures I/Priority Queue.md",
     "CS2505 Network Computing/Lab Work/Lab3/chicken6.jpg",
@@ -220,12 +199,10 @@
     "Images/Pasted image 20240311103639.png",
     "CS2506 Operating Systems II/Self-Notes/Operating Systems.md",
     "CS2516 Algorithms and Data Structures II/Complexity Analysis.md",
-    "CS2514 Introduction to Java/Lab Work/Lab5/subjects.png",
     "CS2506 Operating Systems II/L1 15-01-2024.md",
     "CS2506 Operating Systems II/L2 18-01-2024.md",
     "CS2506 Operating Systems II/L4 25-01-2024.md",
     "CS2506 Operating Systems II/L10 26-02-2024 - Virtual Memory.md",
-    "CS2506 Operating Systems II/Lecture_10.md",
-    "CS2506 Operating Systems II/L14 07-03-2024.md"
+    "CS2506 Operating Systems II/Lecture_10.md"
   ]
 }
